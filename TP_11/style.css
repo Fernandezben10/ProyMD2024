@@ -13,20 +13,20 @@ body{
     background-color: rgba(255, 166, 0, 0.664);
 }
 
-.header{
-     background-color: black;
-     display:flex;
-     justify-content: space-between;
-     align-items: center;
-     height: 90px;
-     padding: 15px;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
 }
 
-.header .logo{
+.logo{
     cursor:pointer;
+    display: inline-block;
 }
 
-.header .logo img{
+.imgen{
     height: 70px;
     width: auto;
     transition: all 0.3s;
@@ -44,8 +44,9 @@ a:hover{
 }
 .nav-links{
     display: flex;
+    justify-content: center;
+    flex-grow: 1;
     gap: 30px;
-    justify-content: space-between;
 }
 .lu:hover{
     font-size: x-large;
@@ -75,6 +76,8 @@ button:hover{
     text-align: center;
     width: 100%;
     padding-left: 20px;
+    row-gap: 70px;
+
 }
 .divI{
     width: 320px;
@@ -90,4 +93,9 @@ button:hover{
 .img{
     width: 310px;
     height: 260px;
+}
+.peso{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
 }
